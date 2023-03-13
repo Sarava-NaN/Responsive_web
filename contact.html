@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="contact-us">
+        <section class="map">
+            <div class="contact-heading heading">
+                <h1>Contact us</h1>
+            </div>
+            <div class="auto">
+                <div class="map-content">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15645.638900454345!2d79.706331!3d11.3777587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1677064829823!5m2!1sen!2sro"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <h3 style="color: aliceblue;text-align: center; font-size: 24px;">Contact-us</h3>
+            <form action="form.php" method="post">
+                <input type="text" placeholder="First name" name="Fname" required>
+                <input type="text" placeholder="Last name" name="Lname" required>
+                <input type="email" placeholder="enter your email" name="email" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Comments" required></textarea>
+                <input type="submit" value="Submit" class="button">
+            </form>
+        </section>
+    </header>
+</body>
+
+</html>
